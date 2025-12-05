@@ -35,7 +35,7 @@ function createGrid(size) {
 
         // hover effect (leaves trail)
         square.addEventListener("mouseover", () => {
-            square.style.backgroundColor = "black";
+            square.style.backgroundColor = "green";
         });
 
         container.appendChild(square);
@@ -59,4 +59,4 @@ button.addEventListener("click", () => {
 });
 
 // generate default grid on load
-createGrid(16);
+// createGrid(16);

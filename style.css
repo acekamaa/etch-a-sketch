@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;   /* centers horizontally */
     align-items: center;        /* centers vertically */
     height: 100vh;              /* full screen height */
@@ -15,7 +16,7 @@ body {
     width: 480px;
     height: 480px;
     border: 2px solid black;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .square {
